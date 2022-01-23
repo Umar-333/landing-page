@@ -9,8 +9,8 @@ body {
 }
 
 img {
-    height: 50px;
-    margin-top: 4px;
+    height:60px;
+    margin-top: 18px;
 }
 
 ul {
@@ -29,7 +29,7 @@ ul {
     font-weight: 1000;
     color: #E5E7EB;
     font-size: 24px;
-    margin-top: 12px;
+    margin-top: 24px;
 }
 .logo {
     display: flex;
@@ -89,3 +89,71 @@ button {
 
 }
 
+.meat-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.meat-images .meat-type {
+    max-width: 200px;;
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.meat-images img {
+    border: #3882F6 3px solid;
+    border-radius: 8px;
+    height: 150px;
+    width: 200px;
+}
+
+.product-text, 
+.label {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.meat-type a {
+    color: teal;
+}
+
+.meat-type {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.label {
+    padding-bottom: 10px;
+}
+
+.motto {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    height: 250px;
+    padding-top: 150px;
+    color: #1F2937;
+}
+
+.motto text {
+    padding: 25px;
+}
+
+.motto .below {
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 90px;
+    margin-right: 25px;
+    font-style: normal;
+
+}
