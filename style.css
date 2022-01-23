@@ -157,3 +157,43 @@ button {
     font-style: normal;
 
 }
+
+
+.bottom-page {
+    background-color: #3882F6;
+    height: 200px;
+    width: 1200px;
+    margin-left: 80px;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+
+
+.bottom-text {
+    padding-top: 60px;
+    padding-left: 70px;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call button{
+    border: #E5E7EB 3px solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+
+}
